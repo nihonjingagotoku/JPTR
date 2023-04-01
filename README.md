@@ -3,12 +3,12 @@ JPTR [Python](https://www.python.org/) programlama dilinde yazılmış basit bir
 
 ## JPTR ekran görüntüleri
 ### Bilgisayardaki görünümü
-<img src="https://github.com/nihonjingagotoku/JPTR/tree/main/screenshots/dict_in_desktop_browser_0.png?raw=true" />
-<img src="https://github.com/nihonjingagotoku/JPTR/tree/main/screenshots/dict_in_desktop_browser_1.png?raw=true" />
+<img src="https://github.com/nihonjingagotoku/JPTR/blob/main/screenshots/dict_in_desktop_browser_0.png?raw=true" />
+<img src="https://github.com/nihonjingagotoku/JPTR/blob/main/screenshots/dict_in_desktop_browser_1.png?raw=true" />
 
 
 ### Telefondaki görünümü
-<img src="https://github.com/nihonjingagotoku/JPTR/tree/main/screenshots/dict_in_phone_browser_0.jpg?raw=true" width=300 height=600 align=left/> <img src="https://github.com/nihonjingagotoku/JPTR/tree/main/screenshots/dict_in_phone_browser_1.jpg?raw=true" width=300 height=600 align=left/>
+<img src="https://github.com/nihonjingagotoku/JPTR/blob/main/screenshots/dict_in_phone_browser_0.jpg?raw=true" width=300 height=600 align=left/> <img src="https://github.com/nihonjingagotoku/JPTR/blob/main/screenshots/dict_in_phone_browser_1.jpg?raw=true" width=300 height=600 align=left/>
 
 
 ## JPTR' yi çalıştırmak
