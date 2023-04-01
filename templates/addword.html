@@ -1,0 +1,70 @@
+{% include 'begin.html' %}
+
+<a href="/sozluk">
+	<button style="margin-left:16px;margin-top:16px;" class="btn btn-primary"> Geri Dön </button>
+</a>
+
+{% if fail == True %}
+	<h1 style="margin-top: 32px; margin-bottom: 32px;" class="d-flex justify-content-center"> 
+		<span class="badge rounded-pill text-bg-danger"> Gönderme hatalı! </span> 
+	</h1>
+{% endif %}
+
+		<div class="container-sm text-center">
+	
+			<form action="/sozluk/addword" method="POST">
+			
+				<div class="row mb-3">
+					<label for="jpword" class="col-sm-2 col-form-label">Japonca Kelime</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="jpword" id="jpword" autocomplete="off">
+					</div>
+				</div>
+				
+				<div class="row mb-3">
+					<label for="wtype" class="col-sm-2 col-form-label">Kelime Türü</label>
+					<div class="col-sm-10">
+						<select name="wtype" id="wtype" class="form-select">
+							<option selected disabled>Menüyü açmak için tıklayın!</option>
+							<option value="İsim"> İsim </option>
+							<option value="İchidan(Ru) Fiili"> İchidan(Ru) Fiili </option>
+							<option value="Godan(U) Fiili"> Godan(U) Fiili </option>
+							<option value="Düzensiz Fiil"> Düzensiz Fiil </option>
+							<option value="Keiyodoshi(Na Sıfatı)"> Keiyodoshi(Na Sıfatı) </option>
+							<option value="Keiyoshi(İ Sıfatı)"> Keiyoshi(İ Sıfatı) </option>
+							<option value="Zarf"> Zarf </option>
+							<option value="Zamir"> Zamir </option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="row mb-3">
+					<label for="kanji" class="col-sm-2 col-form-label">Kanji</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="kanji" id="kanji" autocomplete="off">
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<label for="romaji" class="col-sm-2 col-form-label">Romaji</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="romaji" id="romaji" autocomplete="off">
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<label for="trmeaning" class="col-sm-2 col-form-label">Türkçe Anlamı</label>
+					<div class="col-sm-10">
+						<input type="text" class="form-control" name="trmeaning" id="trmeaning" autocomplete="off">
+					</div>
+				</div>
+
+				<div class="float-end">
+					<button type="submit" class="btn btn-primary">Gönder</button>
+				</div>
+				
+			</form>
+			
+		</div>
+		
+{% include 'end.html' %}

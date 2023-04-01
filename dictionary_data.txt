@@ -1,0 +1,59 @@
+// Sayılar
+İsim|ぜろ|ゼロ|zero|sıfır
+İsim|いち|一|ichi|bir
+İsim|に|二|ni|iki
+İsim|さん|三|san|üç
+İsim|し|四|shi|dört
+İsim|ご|五|go|beş
+İsim|ろく|六|roku|altı
+İsim|しち|七|shichi|yedi
+İsim|はち|八|hachi|sekiz
+İsim|きゅう|九|kyuu|dokuz
+İsim|じゅう|十|jyuu|on
+İsim|にじゅう|二十|nijyuu|yirmi
+İsim|さんじゅう|三十|sanjyuu|otuz
+İsim|しじゅう|四十|shijyuu|kırk
+İsim|ごじゅう|五十|gojyuu|elli
+İsim|ろくじゅう|六十|rokujyuu|altmış
+İsim|しちじゅう|七十|shichijyuu|yetmiş
+İsim|はちじゅう|八十|hachijyuu|seksen
+İsim|くじゅう|九十|kujyuu|doksan
+İsim|ひゃく|百|hyaku|yüz
+İsim|せん|千|sen|bin
+// Diğer Kelimeler
+Godan(U) Fiili|あう|会う|au|buluşmak
+İsim|あお|青|ao|mavi
+Keiyoshi(İ Sıfatı)|あおい|青い|aoi|mavi
+Zarf|ちょっと|一寸|chotto|biraz
+İsim|あか|赤|aka|kırmızı
+Keiyoshi(İ Sıfatı)|あかい|赤い|akai|kırmızı
+Keiyoshi(İ Sıfatı)|あかるい|明るい|akarui|aydınlık
+İsim|あき|秋|aki|sonbahar
+Godan(U) Fiili|あく|開く|aku|açmak
+İchidan(Ru) Fiili|あける|開ける|akeru|açmak
+İchidan(Ru) Fiili|あげる|上げる|ageru|vermek
+İsim|あさ|朝|asa|sabah
+İsim|あさごはん|朝御飯|asagohan|kahvaltı
+İsim|あし|足|ashi|ayak
+İsim|あした|明日|ashita|yarın
+Zarf|あそこ|彼処|asoko|orada
+Godan(U) Fiili|あそぶ|遊ぶ|asobu|oynamak
+Keiyoshi(İ Sıfatı)|あたたかい|暖かい|atatakai|ılık
+İsim|あたま|頭|atama|kafa
+Keiyoshi(İ Sıfatı)|あたらしい|新しい|atarashii|yeni
+Zamir|あちら|彼方|achira|orada
+Keiyoshi(İ Sıfatı)|あつい|暑い|atsui|sıcak
+Keiyoshi(İ Sıfatı)|あつい|熱い|atsui|sıcak
+Keiyoshi(İ Sıfatı)|あつい|厚い|atsui|kibar
+Zamir|あっち|彼方|acchi|orada
+Zarf|あと|後|ato|sonradan
+İsim|あなた|貴方|anata|sen
+İsim|あに|兄|ani|abi
+İsim|あね|姉|ane|abla
+İchidan(Ru) Fiili|あびる|浴びる|abiru|duş almak
+Keiyoshi(İ Sıfatı)|あぶない|危ない|abunai|tehlikeli
+Zarf|あまり|余り|amari|çok değil
+İsim|あめ|雨|ame|yağmur
+İsim|あめ|飴|ame|şeker
+Godan(U) Fiili|あらう|洗う|arau|yıkanmak
+Godan(U) Fiili|あるく|歩く|aruku|yürümek

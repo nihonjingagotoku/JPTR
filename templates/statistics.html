@@ -1,0 +1,37 @@
+{% include 'begin.html' %}
+
+<div class="w-100 text-center">
+		<div class="card">
+			<p class="h1"> Bu sözlükte <strong> {{ RowCount }} </strong>  kelime vardır. </p>
+		</div>
+		
+		{% if ListAll != None %}
+		<table class="table">
+			<thead>
+				<tr>
+					<th scope="col">Word ID</th>
+					<th scope="col">Word Type</th>
+					<th scope="col">Japanese Word</th>
+					<th scope="col">Kanji</th>
+					<th scope="col">Romaji</th>
+					<th scope="col">Turkish Meaning</th>
+				</tr>
+			</thead>
+			
+			<tbody>
+				{% for i in ListAll %}
+				<tr>
+					<th scope="row">{{i.wid}}</th>
+					<td>{{i.wtype}}</td>
+					<td>{{i.jpword}}</td>
+					<td>{{i.kanji}}</td>
+					<td>{{i.romaji}}</td>
+					<td>{{i.trmeaning}}</td>
+				</tr>
+				{% endfor %}		
+			</tbody>
+		</table>
+		{% endif %}
+</div>
+
+{% include 'end.html' %}

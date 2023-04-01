@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+
+body{
+  background-color: #ECF0F1;
+}
+
+.grid-cont {
+	margin-top: 10px;
+	display: grid; 
+	grid-template-columns: auto;
+	column-gap: 2em;
+	row-gap: 2em;
+}
+
+.jp-font {
+	font-family: 'Sawarabi Mincho', serif;
+}
+
+.no-select {
+ user-select: none; 
+}
+
+
+/*
+  Bootstrap shit begiiiiins
+*/
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+@media (min-width:320px)  {
+	.grid-cont{
+		grid-template-columns: auto;
+	}
+
+	.return-btn{
+		width: 100px;
+		height: 100px;
+	}
+	
+	.send-form > input[type="text"] {
+		font-size: 3em;
+		width: calc(100vw - 200px);
+	}
+	.send-form > label {
+		font-size: 3em;
+	
+	}
+	
+	.send-form input[type="submit"]{
+		font-size: 3em;
+	}
+	
+	
+	#gentle-cont{
+		width: 100%;
+		display: block;
+	}
+		
+	#addw{
+		display: flex;
+		justify-content: center;
+	}
+	
+	#ownnav{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	#ownnav-t{
+		margin-left: 3px;
+		font-size: 2em;
+	}
+}
+
+@media (min-width: 768px) {
+	.grid-cont{
+		grid-template-columns: auto auto;
+	}
+}
+
+@media (min-width: 1200px) {
+	#gentle-cont{
+		display: flex;
+	}
+	
+	.grid-cont{
+		grid-template-columns: auto auto auto;
+	}
+	
+	#ownnav-t{
+		margin-left: 5px;
+		font-size: 1em;
+	}
+}

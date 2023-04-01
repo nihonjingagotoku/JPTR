@@ -1,0 +1,4 @@
+pyv/
+.env/
+__pycache__/
+dictionary_app_database.db
